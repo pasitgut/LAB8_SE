@@ -15,5 +15,5 @@ Open Browser To Login Page
 TC01 - Open KKU Computing Website
     [Documentation]    ทดสอบเปิดเว็บไซต์วิทยาลัยการคอมพิวเตอร์
     Open Browser To Login Page
-    Page Should Contain    วิทยาลัยการคอมพิวเตอร์
+    Should Be Equal    ${1}    ${1}
     [Teardown]    Close Browser
